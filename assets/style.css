@@ -85,6 +85,10 @@ body {
 	font-style: italic;
 	width: 60%;
 }
+#about p.about-me__introduction { 
+	font-size: 1rem; 
+}
+
 #about-me p {
 	width: 80%;
 	font-size: 14px;
