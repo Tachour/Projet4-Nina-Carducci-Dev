@@ -53,7 +53,7 @@
   $.fn.mauGallery.listeners = function(options) {
     $(".gallery-item").on("click", function() {
       if (options.lightBox && $(this).prop("tagName") === "IMG") {
-        // ouverture lightbox basique (sera gérée par ton JS pur)
+        // ouverture lightbox basique (sera gérée par JS pur)
         $(`#${options.lightboxId}`).modal("toggle");
         $(`#${options.lightboxId} .lightboxImage`).attr("src", $(this).attr("src"));
       }
